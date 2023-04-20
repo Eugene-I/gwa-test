@@ -300,6 +300,11 @@
       "view_all": "View all",
       "view_all_label": "View all products in the {{ collection_name }} collection"
     },
+    "featured_products": {
+      "add_to_cart": "Add to cart",
+      "add_to_cart_adding": "Adding",
+      "add_to_cart_added": "Added"
+    },
     "collection_list": {
       "view_all": "View all"
     },

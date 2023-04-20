@@ -1,0 +1,31 @@
+.card_image-fit {
+  &--fill {
+    .media> :not(.zoom):not(.deferred-media__poster-button) {
+      object-fit: fill;
+    }
+  }
+
+  &--contain {
+    .media> :not(.zoom):not(.deferred-media__poster-button) {
+      object-fit: contain;
+    }
+  }
+
+  &--cover {
+    .media> :not(.zoom):not(.deferred-media__poster-button) {
+      object-fit: cover;
+    }
+  }
+
+  &--none {
+    .media> :not(.zoom):not(.deferred-media__poster-button) {
+      object-fit: none;
+    }
+  }
+
+  &--scale-down {
+    .media> :not(.zoom):not(.deferred-media__poster-button) {
+      object-fit: scale-down;
+    }
+  }
+}
